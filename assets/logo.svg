@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Gustavo Bremo — Software, Data, AI Engineering</title>
+  <desc id="desc">Precise geometric peak-and-arc monogram in silver, graphite and champagne gold, above the Gustavo Bremo wordmark and services.</desc>
+  <defs>
+    <radialGradient id="bgRadial" cx="50%" cy="0%" r="82%" fx="50%" fy="0%" gradientTransform="matrix(1 0 0 .86 0 0)">
+      <stop offset="0" stop-color="#091a2a"/>
+      <stop offset=".27" stop-color="#071625"/>
+      <stop offset=".56" stop-color="#030e1a"/>
+      <stop offset=".82" stop-color="#010710"/>
+      <stop offset="1" stop-color="#00040a"/>
+    </radialGradient>
+    <linearGradient id="bgSubtle" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061a29" stop-opacity=".07"/>
+      <stop offset=".55" stop-color="#000309" stop-opacity=".03"/>
+      <stop offset="1" stop-color="#000308" stop-opacity=".16"/>
+    </linearGradient>
+    <linearGradient id="leftSteel" x1="0" y1="1" x2=".73" y2="0">
+      <stop offset="0" stop-color="#adb9b9"/>
+      <stop offset=".21" stop-color="#51636c"/>
+      <stop offset=".51" stop-color="#1d303d"/>
+      <stop offset=".80" stop-color="#566974"/>
+      <stop offset="1" stop-color="#b2bfc1"/>
+    </linearGradient>
+    <linearGradient id="tipGold" x1="0" y1="0" x2=".95" y2="1">
+      <stop offset="0" stop-color="#faf2e3"/>
+      <stop offset=".25" stop-color="#dfcdb1"/>
+      <stop offset=".65" stop-color="#bda482"/>
+      <stop offset="1" stop-color="#e5cfac"/>
+    </linearGradient>
+    <linearGradient id="arcSteel" x1=".18" y1="1" x2=".83" y2=".06">
+      <stop offset="0" stop-color="#132633"/>
+      <stop offset=".38" stop-color="#3c4a4b"/>
+      <stop offset=".62" stop-color="#a5a9a0"/>
+      <stop offset=".79" stop-color="#f4e9d7"/>
+      <stop offset="1" stop-color="#f5f3e7"/>
+    </linearGradient>
+    <linearGradient id="arcBottom" x1="0" y1="0" x2="1" y2=".2">
+      <stop offset="0" stop-color="#223342" stop-opacity=".75"/>
+      <stop offset=".45" stop-color="#253440" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#fff2dc" stop-opacity=".65"/>
+    </linearGradient>
+    <linearGradient id="bronzeLeg" x1="0" y1="0" x2="1" y2=".7">
+      <stop offset="0" stop-color="#2b3030"/>
+      <stop offset=".19" stop-color="#75644f"/>
+      <stop offset=".54" stop-color="#b69a77"/>
+      <stop offset=".78" stop-color="#b79d77"/>
+      <stop offset="1" stop-color="#d4b58d"/>
+    </linearGradient>
+    <linearGradient id="silverType" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f2eb"/>
+      <stop offset="1" stop-color="#b8c0c1"/>
+    </linearGradient>
+    <linearGradient id="goldType" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4dfc0"/>
+      <stop offset="1" stop-color="#bb9670"/>
+    </linearGradient>
+    <linearGradient id="hairline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#806c56" stop-opacity=".25"/>
+      <stop offset=".5" stop-color="#e3c49b" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#806c56" stop-opacity=".25"/>
+    </linearGradient>
+  </defs>
+  
+  <g id="background">
+    <rect width="1536" height="1024" fill="#02080e"/>
+    <rect width="1536" height="1024" fill="url(#bgRadial)"/>
+    <rect width="1536" height="1024" fill="url(#bgSubtle)"/>
+  </g>
+  <g id="emblem" aria-label="Abstract angular monogram with sweeping arc" stroke-linejoin="miter">
+    <!-- The structural A/peak. Path edges, not bitmap tracing. -->
+    <path id="ascending-peak" d="M 502 581 L 773 175 L 773 261 C 691 381 592 513 502 581 Z" fill="url(#leftSteel)"/>
+    <path d="M 503 581 L 773 175" fill="none" stroke="#d9ddd6" stroke-width="1.5" stroke-opacity=".87"/>
+    <path d="M 773 175 L 773 261" fill="none" stroke="#f3ecde" stroke-width="1.1" stroke-opacity=".70"/>
+    <!-- Champagne-gold precision facet. -->
+    <path id="peak-facet" d="M 773 175 L 873 338 C 855 336 837 339 820 343 L 773 261 Z" fill="url(#tipGold)"/>
+    <path d="M 773 175 L 873 338" fill="none" stroke="#f6eadd" stroke-opacity=".86" stroke-width="1.0"/>
+    <!-- Bronze support is behind the crossing silver arc. -->
+    <path id="descending-facet" d="M 841 394 L 896 380 L 1011 587 L 952 587 Z" fill="url(#bronzeLeg)"/>
+    <path d="M 843 395 L 896 381 L 1011 587" fill="none" stroke="#dfc39f" stroke-width="1.2" stroke-opacity=".61"/>
+    <path d="M 952 587 L 1010 587" fill="none" stroke="#e2c3a1" stroke-width="1.0" stroke-opacity=".6"/>
+    <!-- The central computational sweep is deliberately one continuous vector contour. -->
+    <path id="precision-arc" d="M 551 586 C 649 470 740 378 833 354 C 898 336 952 357 979 395 C 925 360 880 359 838 377 C 771 405 725 450 713 485 C 689 547 753 578 900 587 Z" fill="url(#arcSteel)"/>
+    <path d="M 551 586 C 649 470 740 378 833 354 C 898 336 952 357 979 395" fill="none" stroke="#fffbef" stroke-width="1.25" stroke-opacity=".90"/>
+    <path d="M 979 395 C 925 360 880 359 838 377 C 771 405 725 450 713 485 C 689 547 753 578 900 587" fill="none" stroke="#f4e8d8" stroke-width="1.0" stroke-opacity=".87"/>
+    <path d="M 552 586 L 900 587" fill="none" stroke="url(#arcBottom)" stroke-width="1.35"/>
+  </g>
+<g id="wordmark" font-family="Inter Display, Inter, Lato, sans-serif" font-size="74" font-weight="300">
+  <text x="253" y="688" letter-spacing="44" fill="url(#silverType)">GUSTAVO</text>
+  <text x="897" y="688" letter-spacing="35" fill="url(#goldType)">BREMO</text>
+</g>
+<g id="services" font-family="Inter Display, Inter, Lato, sans-serif" font-size="35" font-weight="300" fill="#deded9">
+  <text x="383" y="766" letter-spacing="11.2">SOFTWARE</text>
+  <text x="806" y="766" letter-spacing="11.2">DATA</text>
+  <text x="1094" y="766" letter-spacing="13.5">AI</text>
+</g>
+<g id="discipline" font-family="Inter Display, Inter, Lato, sans-serif" font-size="31" font-weight="300">
+  <text x="623" y="828" letter-spacing="10.4" fill="#e5e1d8">ENGINEERING</text>
+</g>  <g id="ornaments" fill="none" stroke-linecap="square">
+    <path d="M 722 735 L 722 769" stroke="#d4b38a" stroke-width="1.8"/>
+    <path d="M 1007 735 L 1007 769" stroke="#d4b38a" stroke-width="1.8"/>
+    <path d="M 434 817 L 582 817" stroke="url(#hairline)" stroke-width="1.25"/>
+    <path d="M 961 817 L 1109 817" stroke="url(#hairline)" stroke-width="1.25"/>
+  </g>
+</svg>
